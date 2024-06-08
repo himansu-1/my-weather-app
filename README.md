@@ -74,49 +74,40 @@ Follow these steps to set up the project locally:
 - clsx
 
 ## Project Structure
-.eslintrc.json
-.gitattributes
-.gitignore
-README.md
-next.config.js
-package-lock.json
-package.json
-postcss.config.js
-tailwind.config.ts
-tsconfig.json
 
-weather-app/
-├── public/
-│ ├── next.svg
-| ├── verce.svg
-├── src/
-│ ├── app/
-│ │ ├── atom.ts
-│ │ └── favicon.ico
-│ │ └── globals.css
-│ │ └── layout.tsx
-│ │ └── page.tsx
-│ ├── components/
-│ │ ├── Container.tsx
-│ │ └── ForecastWeatherDetail.tsx
-│ │ └── Navbar.tsx
-│ │ └── SearchBox.tsx
-│ │ └── WeatherDetails.tsx
-│ │ └── WeatherIcon.tsx
-│ ├── utils/
-│ │ ├── cn.ts
-│ │ └── convertKelvinToCelsius.ts
-│ │ └── convertWindSpeed.tsx
-│ │ └── getDayOrNightIcon.ts
-│ │ └── metersToKilometers.ts
-├── .env.local
-├── .eslintrc.json
-├── .gitattributes
-├── .gitignore
-├── README.md
-├── next.config.js
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── tailwind.config.ts
-├── tsconfig.json
+- weather-app/
+  - public/
+    - next.svg
+    - vercel.svg
+  - src/
+    - app/
+      - atom.ts
+      - favicon.ico
+      - globals.css
+      - layout.tsx
+      - page.tsx
+    - components/
+      - Container.tsx
+      - ForecastWeatherDetail.tsx
+      - Navbar.tsx
+      - SearchBox.tsx
+      - WeatherDetails.tsx
+      - WeatherIcon.tsx
+    - utils/
+      - cn.ts
+     
+- convertKelvinToCelsius.ts
+- convertWindSpeed.tsx
+- getDayOrNightIcon.ts
+- metersToKilometers.ts
+- .eslintrc.json
+- .gitattributes
+- .gitignore
+- README.md
+- next.config.js
+- package-lock.json
+- package.json
+- postcss.config.js
+- tailwind.config.ts
+- tsconfig.json
+    
